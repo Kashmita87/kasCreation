@@ -1,24 +1,144 @@
-// function Footer(){
-//     return (<div className="copyright">
-//     <p>Made with love by Myself</p>
-// </div>
-//  )  
+// // function Footer(){
+// //     return (
+// //     <div className="footer-top dark-view padding-tb">
+// //        <div className="container">
+// //          <div className="row">
+// //            <div className="col">
+// //              <div className="footer-item our-address">
+// //                <div className="footer-inner">
+// //                  <div className="footer-content">
+// //                    <div className="title">
+// //                     <h4>title</h4>
+// //                    </div>
+
+// //                  </div>
+
+// //                </div>
+               
+               
+// //              </div>
+             
+// //           </div>
+
+// //          </div>
+
+// //        </div>
+    
+// // </div>
+// //  )  
+// // }
+// // export default Footer;
+
+// // // import React from 'react';
+// // // import { MDBFooter, MDBContainer } from 'mdb-react-ui-kit';
+
+// // // export default function App() {
+// // //   return (
+// // //     <MDBFooter className='text-center text-white' style={{ backgroundColor: '#21081a' }}>
+// // //       <MDBContainer className='p-4'></MDBContainer>
+
+// // //       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+// // //         © 2020 Copyright:
+// // //         <a className='text-white' href='https://mdbootstrap.com/'>
+// // //           MDBootstrap.com
+// // //         </a>
+// // //       </div>
+// // //     </MDBFooter>
+// // //   );
+// // // }
+
+// import React from 'react';
+// import {
+//   MDBFooter,
+//   MDBContainer,
+//   MDBIcon,
+//   MDBInput,
+//   MDBCol,
+//   MDBRow,
+//   MDBBtn
+// } from 'mdb-react-ui-kit';
+
+// export default function App() {
+//   return (
+//     <MDBFooter className='text-center' color='white' bgColor='dark'>
+//       <MDBContainer className='p-4'>
+//         <section className='mb-4'>
+//           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+//             <MDBIcon fab icon='facebook-f' />
+//           </MDBBtn>
+
+//           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+//             <MDBIcon fab icon='twitter' />
+//           </MDBBtn>
+
+//           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+//             <MDBIcon fab icon='google' />
+//           </MDBBtn>
+
+//           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+//             <MDBIcon fab icon='instagram' />
+//           </MDBBtn>
+
+//           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+//             <MDBIcon fab icon='linkedin-in' />
+//           </MDBBtn>
+
+//           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+//             <MDBIcon fab icon='github' />
+//           </MDBBtn>
+//         </section>
+
+//         <section className=''>
+//           <form action=''>
+//             <MDBRow className='d-flex justify-content-center'>
+//               <MDBCol size="auto">
+//                 <p className='pt-2'>
+//                   <strong>Sign up for our newsletter</strong>
+//                 </p>
+//               </MDBCol>
+
+//               <MDBCol md='5' start>
+//                 <MDBInput contrast type='email' label='Email address' className='mb-4' />
+//               </MDBCol>
+
+//               <MDBCol size="auto">
+//                 <MDBBtn outline color='light' type='submit' className='mb-4'>
+//                   Subscribe
+//                 </MDBBtn>
+//               </MDBCol>
+//             </MDBRow>
+//           </form>
+//         </section>
+
+//         <section className='mb-4'>
+//           <p>
+            
+//           </p>
+//         </section>
+
+      
+//       </MDBContainer>
+
+//       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+//         © 2020 Copyright:
+//         <a className='text-white' href='https://mdbootstrap.com/'>
+//           MDBootstrap.com
+//         </a>
+//       </div>
+//     </MDBFooter>
+//   );
 // }
-// export default Footer;
-import React from 'react';
-import { MDBFooter, MDBContainer } from 'mdb-react-ui-kit';
 
-export default function App() {
-  return (
-    <MDBFooter className='text-center text-white' style={{ backgroundColor: '#21081a' }}>
-      <MDBContainer className='p-4'></MDBContainer>
+// Filename - App.js
 
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
-        <a className='text-white' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
-        </a>
-      </div>
-    </MDBFooter>
-  );
-}
+
+import React from "react";
+ //function Footer(){
+   //return (
+const Footer = () => (
+	<footer className="footer">
+		<p> © 2024 Copyright</p>
+	</footer>
+);
+
+export default Footer;
