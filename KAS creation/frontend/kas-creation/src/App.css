@@ -17,7 +17,7 @@
   }
 }
 
-.navbar {
+.nav {
   background-color: rgb(177, 198, 72);
   min-height: 1vh;
   display: flex;
@@ -26,7 +26,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(70, 18, 18);
-  position: fixed;
+  position: sticky-top;
   
 }
 
