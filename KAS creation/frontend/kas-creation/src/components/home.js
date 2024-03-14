@@ -32,6 +32,7 @@ function Home() {
           </p>
         </Carousel.Caption> */}
       </Carousel.Item>
+      Ashmita
     </Carousel>
   );
 }
